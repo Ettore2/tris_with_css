@@ -1,0 +1,353 @@
+/*row 2 input logic*/
+[data-rrc="02A"]:checked~input[data-rrc="02B"]:checked~* .output-02{
+    background-color: #cacaca;
+}
+input[data-rrc="02A"]:checked~* .output-02 {
+    background-color: blue;
+}
+input[data-rrc="02B"]:checked~* .output-02 {
+    background-color: red;
+}
+input[data-rrc="02A"]:checked~input[data-rrc="02B"]:checked~* .input-container-02{
+    display: flex;
+}
+input[data-rrc="02A"]:not(:checked)~* .input-container-02{
+    display: none;
+}
+input[data-rrc="02B"]:not(:checked)~* .input-container-02{
+    display: none;
+}
+
+input[data-rrc="12A"]:checked~input[data-rrc="12B"]:checked~* .output-12{
+    background-color: #cacaca;
+}
+input[data-rrc="12A"]:checked~* .output-12 {
+    background-color: blue;
+}
+input[data-rrc="12B"]:checked~* .output-12 {
+    background-color: red;
+}
+input[data-rrc="12A"]:checked~input[data-rrc="12B"]:checked~* .input-container-12{
+    display: flex;
+}
+input[data-rrc="12A"]:not(:checked)~* .input-container-12{
+    display: none;
+}
+input[data-rrc="12B"]:not(:checked)~* .input-container-12{
+    display: none;
+}
+
+input[data-rrc="22A"]:checked~input[data-rrc="22B"]:checked~* .output-22{
+    background-color: #cacaca;
+}
+input[data-rrc="22A"]:checked~* .output-22 {
+    background-color: blue;
+}
+input[data-rrc="22B"]:checked~* .output-22 {
+    background-color: red;
+}
+input[data-rrc="22A"]:checked~input[data-rrc="22B"]:checked~* .input-container-22{
+    display: flex;
+}
+input[data-rrc="22A"]:not(:checked)~* .input-container-22{
+    display: none;
+}
+input[data-rrc="22B"]:not(:checked)~* .input-container-22{
+    display: none;
+}
+
+
+
+/*row 1 input logic*/
+input[data-rrc="01A"]:checked~input[data-rrc="01B"]:checked~* .output-01{
+    background-color: #cacaca;
+}
+input[data-rrc="01A"]:checked~* .output-01 {
+    background-color: blue;
+}
+input[data-rrc="01B"]:checked~* .output-01 {
+    background-color: red;
+}
+input[data-rrc="01A"]:checked~input[data-rrc="01B"]:checked~* .input-container-01{
+    display: flex;
+}
+input[data-rrc="01A"]:not(:checked)~* .input-container-01{
+    display: none;
+}
+input[data-rrc="01B"]:not(:checked)~* .input-container-01{
+    display: none;
+}
+
+input[data-rrc="11A"]:checked~input[data-rrc="11B"]:checked~* .output-11{
+    background-color: #cacaca;
+}
+input[data-rrc="11A"]:checked~* .output-11 {
+    background-color: blue;
+}
+input[data-rrc="11B"]:checked~* .output-11 {
+    background-color: red;
+}
+input[data-rrc="11A"]:checked~input[data-rrc="11B"]:checked~* .input-container-11{
+    display: flex;
+}
+input[data-rrc="11A"]:not(:checked)~* .input-container-11{
+    display: none;
+}
+input[data-rrc="11B"]:not(:checked)~* .input-container-11{
+    display: none;
+}
+
+input[data-rrc="21A"]:checked~input[data-rrc="21B"]:checked~* .output-21{
+    background-color: #cacaca;
+}
+input[data-rrc="21A"]:checked~* .output-21 {
+    background-color: blue;
+}
+input[data-rrc="21B"]:checked~* .output-21 {
+    background-color: red;
+}
+input[data-rrc="21A"]:checked~input[data-rrc="21B"]:checked~* .input-container-21{
+    display: flex;
+}
+input[data-rrc="21A"]:not(:checked)~* .input-container-21{
+    display: none;
+}
+input[data-rrc="21B"]:not(:checked)~* .input-container-21{
+    display: none;
+}
+
+
+
+/*row 0 input logic*/
+input[data-rrc="00A"]:checked~input[data-rrc="00B"]:checked~* .output-00{
+    background-color: #cacaca;
+}
+input[data-rrc="00A"]:checked~* .output-00 {
+    background-color: blue;
+}
+input[data-rrc="00B"]:checked~* .output-00 {
+    background-color: red;
+}
+input[data-rrc="00A"]:checked~input[data-rrc="00B"]:checked~* .input-container-00{
+    display: flex;
+}
+input[data-rrc="00A"]:not(:checked)~* .input-container-00{
+    display: none;
+}
+input[data-rrc="00B"]:not(:checked)~* .input-container-00{
+    display: none;
+}
+
+input[data-rrc="10A"]:checked~input[data-rrc="10B"]:checked~* .output-10{
+    background-color: #cacaca;
+}
+input[data-rrc="10A"]:checked~* .output-10 {
+    background-color: blue;
+}
+input[data-rrc="10B"]:checked~* .output-10 {
+    background-color: red;
+}
+input[data-rrc="10A"]:checked~input[data-rrc="10B"]:checked~* .input-container-10{
+    display: flex;
+}
+input[data-rrc="10A"]:not(:checked)~* .input-container-10{
+    display: none;
+}
+input[data-rrc="10B"]:not(:checked)~* .input-container-10{
+    display: none;
+}
+
+input[data-rrc="20A"]:checked~input[data-rrc="20B"]:checked~* .output-20{
+    background-color: #cacaca;
+}
+input[data-rrc="20A"]:checked~* .output-20 {
+    background-color: blue;
+}
+input[data-rrc="20B"]:checked~* .output-20 {
+    background-color: red;
+}
+input[data-rrc="20A"]:checked~input[data-rrc="20B"]:checked~* .input-container-20{
+    display: flex;
+}
+input[data-rrc="20A"]:not(:checked)~* .input-container-20{
+    display: none;
+}
+input[data-rrc="20B"]:not(:checked)~* .input-container-20{
+    display: none;
+}
+
+
+
+
+/*blue wins*/
+input[data-rrc="00B"]:not(:checked)~input[data-rrc="10B"]:not(:checked)~input[data-rrc="20B"]:not(:checked)~ .game{
+    display: none;
+}
+input[data-rrc="01B"]:not(:checked)~input[data-rrc="11B"]:not(:checked)~input[data-rrc="21B"]:not(:checked)~ .game{
+    display: none;
+}
+input[data-rrc="02B"]:not(:checked)~input[data-rrc="12B"]:not(:checked)~input[data-rrc="22B"]:not(:checked)~ .game{
+    display: none;
+}
+
+input[data-rrc="02B"]:not(:checked)~input[data-rrc="01B"]:not(:checked)~input[data-rrc="00B"]:not(:checked)~ .game{
+    display: none;
+}
+input[data-rrc="12B"]:not(:checked)~input[data-rrc="11B"]:not(:checked)~input[data-rrc="10B"]:not(:checked)~ .game{
+    display: none;
+}
+input[data-rrc="22B"]:not(:checked)~input[data-rrc="21B"]:not(:checked)~input[data-rrc="20B"]:not(:checked)~ .game{
+    display: none;
+}
+
+input[data-rrc="22B"]:not(:checked)~input[data-rrc="11B"]:not(:checked)~input[data-rrc="00B"]:not(:checked)~ .game{
+    display: none;
+}
+input[data-rrc="02B"]:not(:checked)~input[data-rrc="11B"]:not(:checked)~input[data-rrc="20B"]:not(:checked)~ .game{
+    display: none;
+}
+/*blue msg*/
+input[data-rrc="00B"]:not(:checked)~input[data-rrc="10B"]:not(:checked)~input[data-rrc="20B"]:not(:checked)~ .end-blue{
+    display: flex !important;
+}
+input[data-rrc="01B"]:not(:checked)~input[data-rrc="11B"]:not(:checked)~input[data-rrc="21B"]:not(:checked)~ .end-blue{
+    display: flex !important;
+}
+input[data-rrc="02B"]:not(:checked)~input[data-rrc="12B"]:not(:checked)~input[data-rrc="22B"]:not(:checked)~ .end-blue{
+    display: flex !important;
+}
+
+input[data-rrc="02B"]:not(:checked)~input[data-rrc="01B"]:not(:checked)~input[data-rrc="00B"]:not(:checked)~ .end-blue{
+    display: flex !important;
+}
+input[data-rrc="12B"]:not(:checked)~input[data-rrc="11B"]:not(:checked)~input[data-rrc="10B"]:not(:checked)~ .end-blue{
+    display: flex !important;
+}
+input[data-rrc="22B"]:not(:checked)~input[data-rrc="21B"]:not(:checked)~input[data-rrc="20B"]:not(:checked)~ .end-blue{
+    display: flex !important;
+}
+
+input[data-rrc="22B"]:not(:checked)~input[data-rrc="11B"]:not(:checked)~input[data-rrc="00B"]:not(:checked)~ .end-blue{
+    display: flex !important;
+}
+input[data-rrc="02B"]:not(:checked)~input[data-rrc="11B"]:not(:checked)~input[data-rrc="20B"]:not(:checked)~ .end-blue{
+    display: flex !important;
+}
+
+
+
+/*red wins*/
+input[data-rrc="00A"]:not(:checked)~input[data-rrc="10A"]:not(:checked)~input[data-rrc="20A"]:not(:checked)~ .game{
+    display: none;
+}
+input[data-rrc="01A"]:not(:checked)~input[data-rrc="11A"]:not(:checked)~input[data-rrc="21A"]:not(:checked)~ .game{
+    display: none;
+}
+input[data-rrc="02A"]:not(:checked)~input[data-rrc="12A"]:not(:checked)~input[data-rrc="22A"]:not(:checked)~ .game{
+    display: none;
+}
+
+input[data-rrc="02A"]:not(:checked)~input[data-rrc="01A"]:not(:checked)~input[data-rrc="00A"]:not(:checked)~ .game{
+    display: none;
+}
+input[data-rrc="12A"]:not(:checked)~input[data-rrc="11A"]:not(:checked)~input[data-rrc="10A"]:not(:checked)~ .game{
+    display: none;
+}
+input[data-rrc="22A"]:not(:checked)~input[data-rrc="21A"]:not(:checked)~input[data-rrc="20A"]:not(:checked)~ .game{
+    display: none;
+}
+
+input[data-rrc="22A"]:not(:checked)~input[data-rrc="11A"]:not(:checked)~input[data-rrc="00A"]:not(:checked)~ .game{
+    display: none;
+}
+input[data-rrc="02A"]:not(:checked)~input[data-rrc="11A"]:not(:checked)~input[data-rrc="20A"]:not(:checked)~ .game{
+    display: none;
+}
+/*red msg*/
+input[data-rrc="00A"]:not(:checked)~input[data-rrc="10A"]:not(:checked)~input[data-rrc="20A"]:not(:checked)~ .end-red{
+    display: flex !important;
+}
+input[data-rrc="01A"]:not(:checked)~input[data-rrc="11A"]:not(:checked)~input[data-rrc="21A"]:not(:checked)~ .end-red{
+    display: flex !important;
+}
+input[data-rrc="02A"]:not(:checked)~input[data-rrc="12A"]:not(:checked)~input[data-rrc="22A"]:not(:checked)~ .end-red{
+    display: flex !important;
+}
+
+input[data-rrc="02A"]:not(:checked)~input[data-rrc="01A"]:not(:checked)~input[data-rrc="00A"]:not(:checked)~ .end-red{
+    display: flex !important;
+}
+input[data-rrc="12A"]:not(:checked)~input[data-rrc="11A"]:not(:checked)~input[data-rrc="10A"]:not(:checked)~ .end-red{
+    display: flex !important;
+}
+input[data-rrc="22A"]:not(:checked)~input[data-rrc="21A"]:not(:checked)~input[data-rrc="20A"]:not(:checked)~ .end-red{
+    display: flex !important;
+}
+
+input[data-rrc="22A"]:not(:checked)~input[data-rrc="11A"]:not(:checked)~input[data-rrc="00A"]:not(:checked)~ .end-red{
+    display: flex !important;
+}
+input[data-rrc="02A"]:not(:checked)~input[data-rrc="11A"]:not(:checked)~input[data-rrc="20A"]:not(:checked)~ .end-red{
+    display: flex !important;
+}
+
+.end-blue{
+    display: none;
+
+}
+.end-red{
+    display: none;
+}
+
+
+
+
+.game{
+    margin: auto;
+}
+.hide{
+    /**/
+    display: none;
+}
+.cell{
+    width: 10%;
+    padding: 1%;
+}
+.output {
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    margin: auto auto 1% auto;
+
+}
+.input-R {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: red;
+    margin-right: 3%;
+}
+.input-B {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: blue;
+    margin-left: 3%;
+}
+.control-input {
+    opacity: 0;
+    position: absolute;
+    width: 0;
+}
+.input-container {
+    background: gray;
+    width: 110px;
+    margin: auto;
+    opacity: 80%;
+}
+.win_text{
+    font-size: 400%;
+    font-weight: bold;
+    margin: auto;
+}
+
